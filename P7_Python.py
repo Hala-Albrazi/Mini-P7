@@ -18,10 +18,10 @@ elif choice == "2":
         computer_choice = "tails"
 else:
     print("The number is invalid!!")
-    choice = input("Choose 1 or 2: \n")
 mine = input("Enter your Guess: Heads or Tails: \n").lower()
 if mine.lower() == computer_choice.lower():
     print("Congratiolations!!! You Won!")
 else:
     print("Sorry, you lost!")
     print(f"The computer chose {computer_choice}")
+
